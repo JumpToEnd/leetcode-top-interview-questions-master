@@ -26,6 +26,7 @@ public class Problem_0139_WordBreak {
 		dp[N] = true;
 		for (int i = N - 1; i >= 0; i--) {
 			Node cur = root;
+
 			for (int end = i; end < N; end++) {
 				int path = str[end] - 'a';
 				if (cur.nexts[path] == null) {

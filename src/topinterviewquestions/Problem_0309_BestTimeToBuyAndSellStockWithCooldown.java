@@ -5,7 +5,7 @@ package topinterviewquestions;
  * A[i]： 0...i范围内，不要求[i]必须如何，求最大收益
  * 1. [i] 不参加最后一次交易 ==> i-1
  * 2. [i] 参加最后一次交易 ==> B[i-1] + [i]，B[i-1]：在0...i-1范围内做无限次交易(有cool down)获得的最大一次收益并且减去最后一次买入的价格的最优结果
- *   a.
+ * a.
  */
 public class Problem_0309_BestTimeToBuyAndSellStockWithCooldown {
 

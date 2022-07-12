@@ -1,5 +1,12 @@
 package topinterviewquestions;
 
+/**
+ * 方法1：左部分逆序，右部分逆序，整体逆序
+ * 方法2：
+ *
+ * 1. 如果左侧长度等于右侧长度直接交换
+ *
+ */
 public class Problem_0189_RotateArray {
 
 	public void rotate1(int[] nums, int k) {
